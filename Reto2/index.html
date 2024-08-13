@@ -28,47 +28,21 @@
               <div class="col-md-4">
                 <img src="./source/specialty.png" class="img-fluid rounded-start" alt="...">
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn"><h4>Nuestras Recomendadas</h4></button>
-                    <div id="myDropdown" class="dropdown-content">
-                      <a href="#">
-                        <div class="row">
-                            <div class="col-3">
-                                <div class="card" style="width: 18rem;">
-                                    <img src="./source/20959738-6517-44d3-a581-014356dc6f06.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                  </div>
-                            </div>
-                            </div>
-                            </a>
-                      <a href="#">
-                        <div class="row">
-                            <div class="col-3">
-                                <div class="card" style="width: 18rem;">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                  </div>
-                      </a>
-                      <a href="#">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                          </div>
-                      </a>
+              <p class="d-inline-flex gap-1">
+                <button class="btn btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"><h4>Nuestra Recomendadas</h4></button>
+              </p>
+              <div class="row">
+                <div class="col">
+                  <div class="multi-collapse collapse" id="multiCollapseExample1" style="">
+                    <div class="card card-body">
+                      Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="multi-collapse collapse" id="multiCollapseExample2" style="">
+                    <div class="card card-body">
+                      Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
                     </div>
                   </div>
                 </div>
@@ -84,6 +58,25 @@
                   <div class="col-md-8">
                     <div class="card-body">
                       <h4 class="card-title">Acompañamientos</h4>
+                      <p class="d-inline-flex gap-1">
+                        <button class="btn btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"></button>
+                      </p>
+                      <div class="row">
+                        <div class="col">
+                          <div class="multi-collapse collapse" id="multiCollapseExample1" style="">
+                            <div class="card card-body">
+                              Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="multi-collapse collapse" id="multiCollapseExample2" style="">
+                            <div class="card card-body">
+                              Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
