@@ -1,7 +1,7 @@
 .tituloCentral{
     text-align: center;
     color: #006491;
-    padding: 5%;
+    
 }
 .card-title{
     color: #006491;
@@ -15,8 +15,20 @@
     text-transform: capitalize;
 }
 
-.butondiv{
+.titulo{
+    align-items: center;
 
-    text-align: right;
- 
+}
+
+body {
+  
+   
+   background: url('https://www.walksinsiderome.com/wp-content/uploads/2022/06/rome-pizza-cooking-class.jpg') repeat center center;
+    background-size:cover; /* Asegura que la imagen de fondo cubra toda el área */
+    font-weight: 400;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+   
 }
