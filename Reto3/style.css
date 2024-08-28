@@ -1,0 +1,77 @@
+.especial{
+    font-size: 100px;
+}
+  
+body {
+    display: flex;
+    font-family: 'Digital-7', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://static.vecteezy.com/system/resources/previews/005/272/647/non_2x/clean-and-modern-sports-background-abstract-background-illustration-perfect-for-wallpaper-backdrop-game-background-sport-background-vector.jpg') no-repeat center center;
+    background-size: cover; /* Asegura que la imagen de fondo cubra toda el área */
+    font-weight: 400;   
+   
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para mejor contraste */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 90%; /* Asegura que el contenedor no sea demasiado ancho en pantallas grandes */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#stopwatch {
+    margin-bottom: 20px;
+    color: white; /* Color numeros */
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.5em;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    transition: background 0.3s ease;
+    min-width: 120px; /* Asegura que los botones tengan un tamaño mínimo */
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#startBtn {
+    background-color: #28a745; /* Verde para iniciar */
+}
+
+#pauseBtn {
+    background-color: #ffc107; /* Amarillo para pausar */
+}
+
+#resetBtn {
+    background-color: #dc3545; /* Rojo para reiniciar */
+}
+
+#startBtn:hover {
+    background-color: #218838; /* Verde más oscuro para iniciar al pasar el ratón */
+}
+
+#pauseBtn:hover {
+    background-color: #e0a800; /* Amarillo más oscuro para pausar al pasar el ratón */
+}
+
+#resetBtn:hover {
+    background-color: #c82333; /* Rojo más oscuro para reiniciar al pasar el ratón */
+}
